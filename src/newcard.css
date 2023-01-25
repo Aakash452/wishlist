@@ -1,0 +1,37 @@
+@media only screen and (min-width: 1536px) {
+    .InStock{
+      grid-template-columns: 4fr 2fr 11fr !important;
+    }
+  }
+@media only screen and (max-width: 1279px) {
+  .InStock{
+    grid-template-columns:7fr 4fr 7fr !important;
+  }
+  
+  }
+@media only screen and (max-width: 1040px) {
+  .InStock{
+    grid-template-columns: 4fr 2fr 7fr !important;
+  }
+  
+  }
+@media only screen and (max-width: 1023px) {
+  .InStock{
+    grid-template-columns: 9fr 5fr 5fr !important;
+  }
+  
+  }
+@media only screen and (max-width: 491px) {
+  .InStock {
+    grid-template-columns: 5fr 5fr 5fr !important;
+}
+  }
+@media only screen and (max-width: 416px) {
+  .InStock {
+    display: block !important;
+}
+.newPricing{
+  display: flex;
+    justify-content: center;
+}
+  }

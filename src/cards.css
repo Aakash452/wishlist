@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  body{
+    font-family: 'Raleway', sans-serif;
+  }
+  .custom-number-input input:focus {
+    outline: none !important;
+  }
+
+  .custom-number-input button:focus {
+    outline: none !important;
+  }
+
+   
+
+  
+  .card{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+           
+  }
+  .bodypart{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+           
+  }
+  .price{
+    margin: 13px 0px 44px 37px;
+    color: #ff8080;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .title{
+    font-weight: bold;
+    color: #383431;
+    width: 25em;
+  }
+  .companyName{
+    color: #9d9d9d;
+    font-size: 11px;
+    margin: 7px 0px;
+  }
+  .counter{
+    margin: 17px 0px 5px 13px;
+  }
+  .delete{
+    margin: 21px 0px 0px 11px;
+    
+  }
+  .deleteCard{
+    color: '#9d9d9d';
+    font-size: 12px;
+  }
+
+  .deleteCard:hover{
+    color: grey !important;
+    text-decoration: none !important;
+  }
+  .savings{
+    margin-top: 77px;
+  }
+
+  @media only screen and (max-width: 1040px) {
+    .card{
+        display: block;
+    }
+    .imageSection{
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media only screen and (max-width: 780px) {
+    .title{
+      width: 100% !important;
+    }
+    .bodypart{
+      display: block;
+    }
+    .price{
+      float: right;
+      margin: 13px 0px 0px 0px;;
+    }
+    .savings{
+      margin-top: 12px;
+      
+    }
+  }
+  @media only screen and (max-width: 490px) {
+    .price{
+      float: none;
+      text-align: center;
+    }
+    .savings {
+      text-align: center;
+  }
+  .subtotal{
+    text-align: center;
+  }
+  .CardsFooter{
+    display: block !important;
+  }
+  .btn{
+    margin-left: 19px !important;
+  }
+
+  }
+  @media only screen and (max-width:343px){
+    .quantity{
+      display: block !important;
+    }
+    .subtotalFinal{
+      margin: 0px;
+    }
+    .btn{
+      margin:0px !important;
+      padding: 10px !important;
+    }
+    .footerContinue{
+      margin:28px 16px 19px 31px !important;
+    }
+  }

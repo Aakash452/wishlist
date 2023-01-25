@@ -1,0 +1,32 @@
+.mainDiv {
+  width: 100vw;
+  height: 100%;
+}
+
+/* Most Selling Product */
+.mspSlide {
+  width: 100%;
+}
+
+.sellingContainer {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.titleContainer {
+  font-weight: bold;
+}
+
+/* Most Viewed Product */
+
+.mvpSlide {
+  width: 100%;
+}
+
+.container {
+  width: 95%;
+  height: auto;
+  background-color: white !important;
+  margin: 0 auto;
+}

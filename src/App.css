@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  body{
+    font-family: 'Raleway', sans-serif;
+  }
+  .custom-number-input input:focus {
+    outline: none !important;
+  }
+
+  .custom-number-input button:focus {
+    outline: none !important;
+  }
+
+   
+
+  
+  .card{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+           
+  }
+  .bodypart{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+           
+  }
+  .price{
+    margin: 13px 0px 44px 37px;
+    color: #ff8080;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .title{
+    font-weight: bold;
+    color: #383431;
+    width: 26em;
+  }
+  .companyName{
+    color: #9d9d9d;
+    font-size: 11px;
+    margin: 7px 0px;
+  }
+  .counter{
+    margin: 17px 0px 5px 13px;
+  }
+  .delete{
+    margin: 21px 0px 0px 11px;
+    
+  }
+  .deleteCard{
+    color: '#9d9d9d';
+    font-size: 12px;
+  }
+
+  .deleteCard:hover{
+    color: grey !important;
+    text-decoration: none !important;
+  }
+  .savings{
+    margin-top: 77px;
+  }
+
+  @media only screen and (max-width: 1040px) {
+    .card{
+        display: block;
+    }
+    .imageSection{
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media only screen and (max-width: 780px) {
+    .title{
+      width: 100% !important;
+    }
+    .bodypart{
+      display: block;
+    }
+    .price{
+      float: right;
+      margin: 13px 0px 0px 0px;;
+    }
+    .savings{
+      margin-top: 12px;
+      
+    }
+  }
+  @media only screen and (max-width: 490px) {
+    .price{
+      float: none;
+      text-align: center;
+    }
+    .savings {
+      text-align: center;
+  }
+  .subtotal{
+    text-align: center;
+  }
+  .CardsFooter{
+    display: block !important;
+  }
+  .btn{
+    margin-left: 19px !important;
+  }
+
+  }
+  @media only screen and (max-width:343px){
+    .quantity{
+      display: block !important;
+    }
+    .subtotalFinal{
+      margin: 0px;
+    }
+    .btn{
+      margin:0px !important;
+      padding: 10px !important;
+    }
+    .footerContinue{
+      margin:28px 16px 19px 31px !important;
+    }
+  }
+
+  /* Wishlist Cards */
+
+  /* @media only screen and (min-width: 1536px) {
+    .InStock{
+      grid-template-columns:4fr 4fr 25fr !important;
+    }
+  }
+  @media only screen and (min-width: 1985px) {
+    .InStock{
+      grid-template-columns:4fr 3fr 25fr !important;
+    }
+  }
+@media only screen and (max-width: 1279px) {
+  .InStock{
+    grid-template-columns:7fr 4fr 7fr !important;
+  }
+  
+  }
+@media only screen and (max-width: 1040px) {
+  .InStock{
+    grid-template-columns: 3fr 2fr 7fr !important;
+  }
+  
+  }
+@media only screen and (max-width: 1023px) {
+  .InStock{
+    grid-template-columns:  5fr 6fr 14fr!important;
+  }
+  
+  }
+@media only screen and (max-width: 491px) {
+  .InStock {
+    grid-template-columns: 5fr 5fr 5fr !important;
+}
+  }
+@media only screen and (max-width: 519px) {
+  .InStock {
+    grid-template-columns: 5fr 4fr 5fr !important;
+}
+  }
+@media only screen and (max-width: 451px) {
+  .InStock {
+    grid-template-columns: 5fr 5fr 5fr !important;
+}
+} */
+/* @media only screen and (min-width: 469px) {
+  .InStock{
+    margin-top: 19px;
+  }
+}
+@media only screen and (max-width: 775px) {
+.InStock{
+  margin-top: 19px;
+}
+  } */
+@media only screen and (max-width: 416px) {
+  .InStock {
+    display: block !important;
+}
+.newPricing{
+  display: flex;
+    justify-content: center;
+}
+.price1{
+  margin: 7px 0px 8px 0px !important;
+}
+
+.price2{
+  margin-top:8px !important;
+}
+  }
+@media only screen and (min-width: 800px) {
+  .priceStock{
+    margin-left: 47px;
+  }
+}
+
+/* Most Selling Products */
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+}
+
+.mostSP {
+    /* display: flex;
+    flex-direction: column; */
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid #e8e8e8;
+    height: 345px;
+    width: 230px;
+    padding: 15px 20px;
+    box-shadow: 1px 1px 18px #e8e8e8, -1px -1px 18px #e8e8e8;
+    align-items: center;
+
+}
+
+.btn {
+    background-color: #1a3783;
+    color: white;
+    border-color:  #1a3783;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 4px 11px;
+    /* display: inline-block; */
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bs {
+    /* display: inline-block; */
+    font-size: 40px;
+    color: black;
+    background-color: #E9EFFD;
+    border-color: #E9EFFD;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 2px 5px;
+    margin-left: 5px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    position: center;
+}
+
+.dollar {
+    margin-left: 5px;
+    margin-right: 5px;
+margin-top: 15px;
+margin-bottom: 50px;
+    background-color: white;
+   
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight:bold;
+    line-height: 5px;
+}
+
+.dollar1 {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(190, 188, 188);
+    text-decoration: line-through;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: white;
+}
+
+h4 {
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 0%;
+}
+
+h3 {
+    margin-bottom: 10px;
+    margin-top: -3px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.dbs{
+    margin-bottom: 10px;
+    background-color: white;
+}
+/* Shopping Cart */
+
+.ShoppingCart{
+    margin: 70px 20px;
+    
+    
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 0px 126px -23px rgba(0,0,0,0.06);
+-webkit-box-shadow: 1px 0px 126px -23px rgba(0,0,0,0.06);
+-moz-box-shadow: 1px 0px 126px -23px rgba(0,0,0,0.06);
+
+}
+.header{
+    padding: 30px 20px;
+    margin-left: 20px;
+    
+}

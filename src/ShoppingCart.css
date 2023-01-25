@@ -1,0 +1,16 @@
+.ShoppingCart{
+    margin: 70px 20px;
+    
+    
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 0px 126px -23px rgba(0,0,0,0.06);
+-webkit-box-shadow: 1px 0px 126px -23px rgba(0,0,0,0.06);
+-moz-box-shadow: 1px 0px 126px -23px rgba(0,0,0,0.06);
+
+}
+.header{
+    padding: 30px 20px;
+    margin-left: 20px;
+    
+}
